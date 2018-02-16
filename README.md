@@ -1,3 +1,6 @@
 # crispy-waffle
-test to display images to console
+display in console
+
 currently scrolls a box through all coordinates
+
+operates in a square window
