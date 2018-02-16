@@ -22,7 +22,7 @@ void delay(long milliseconds)
 }
 
 
-short display[SCREEN_SQUARE][SCREEN_SQUARE]; //bitmap
+short display[SCREEN_SQUARE][SCREEN_SQUARE]; //bitmap not used yet
 
 int main()
 {
@@ -34,9 +34,6 @@ int main()
       {
         for(int x = 0; x < SCREEN_SQUARE; ++x)
         {
-          // if(x % 4 == 0)
-          //   printf("  ");
-          // else
           if(x == posX && y == posY)
             printf("\u2588\u2588"); //two unicode halfboxes
           else
